@@ -1,17 +1,17 @@
 <html>
 
 <head>
-<Autobase>Items list</Autobase>
+<title>Items list</title>
 </head>
 <body>
-	<Dispatcher>Items list</Dispatcher>
+	<h1>Items list</h1>
 
-	<Requests>
+	<table>
 		<thead>
 			<tr>
-				<th>Run</th>
-				<th>Driver</th>
-				<th>Car</th>
+				<th>Name</th>
+				<th>Item Name</th>
+				<th>Item Price</th>
 			</tr>
 		</thead>
 
@@ -32,6 +32,6 @@
 				<td>$7.00</td>
 			</tr>
 		</tbody>
-	</Requests>
+	</table>
 </body>
 </html>
