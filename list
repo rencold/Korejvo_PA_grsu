@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Автобаза</title>
+<title>Автобаза водители</title>
 
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -12,9 +12,12 @@
 <nav class="teal darken-3" role="navigation">
 	<div class="nav-wrapper container">
 		<a id="logo-container" href="#" class="brand-logo">Автобаза</a>
-		<ul class="right hide-on-med-and-down">
-			<li><a href="#">Панель новигации</a></li>
-		</ul>
+		<ul class="brand-logo center">
+        <li class="active"><a href="list.html">Водители</a></li>
+        <li><a href="auto.html">Автомобили</a></li>
+        <li><a href="run.html">Рейсы</a></li>
+        <li><a href="edit.html">Заявки</a></li>
+      </ul>
 	</div>
 </nav>
 
