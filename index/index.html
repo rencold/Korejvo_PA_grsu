@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Автобаза</title>
+<title>Новая заявка</title>
 
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet"
@@ -15,10 +15,11 @@
 	<div class="nav-wrapper container">
 		<a id="logo-container" href="#" class="brand-logo">Автобаза</a>
 		<ul class="brand-logo center">
-        <li><a href="list.html">Водители</a></li>
+		<li><a href="edit.html">Заявки</a></li>
+        <li><a href="drivers.html">Водители</a></li>
         <li><a href="auto.html">Автомобили</a></li>
-        <li><a href="run.html">Рейсы</a></li>
-        <li class="active"><a href="edit.html">Заявки</a></li>
+        <li><a href="runs.html">Рейсы</a></li>
+        
       </ul>
 	</div>
 </nav>
@@ -26,38 +27,44 @@
 
 	<div class="section no-pad-bot" id="index-banner">
 		<div class="container">
-			<h1>Изменить элемент</h1>
+			<h1>Новая заявка</h1>
 
 
 			<div class="row">
 				<form class="col s12">
 					<div class="row">
 						<div class="input-field col s6">
-							<input placeholder="Имя" id="first_name" type="text"
-								class="validate"> <label for="first_name">Имя</label>
+							<input placeholder="Имя или название организации" id="first_name" type="text"
+								class="validate"> <label for="first_name">Имя заказчика</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="+375..." type="text" class="validate"> <label
-								for="last_name">Номер телефона</label>
-						</div>
-					</div>
-					<div class="switch">
-						<label> Свободен <input type="checkbox"> <span
-							class="lever"></span> Занят
-						</label>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="password" type="password" class="validate"> <label
-								for="password">Автомобиль</label>
+							<input placeholder="8 0152..." id="first_name" type="text"
+								class="validate"> <label for="first_name">Телефон заказчика</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input id="email" type="email" class="validate"> <label
-								for="email">Номер автомобиля</label>
-						</div>
+    <select>
+      <option value="" disabled selected>Выберите рейс</option>
+      <option value="1">Гродно-Минск</option>
+      <option value="2">Гродно-Брест</option>
+      <option value="3">Брест-Минск</option>
+    </select>
+    <label>Materialize Select</label>
+  </div>
 					</div>
+					<div class="row">
+						<div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Выберите автомобиль</option>
+      <option value="1">У 468 У Н</option>
+      <option value="2">К 793 К М</option>
+      <option value="3">Е 827 Р Х</option>
+    </select>
+    <label>Materialize Select</label>
+  </div>
+					</div>
+
 
 				</form>
 			</div>
